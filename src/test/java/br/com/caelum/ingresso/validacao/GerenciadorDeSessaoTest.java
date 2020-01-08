@@ -24,7 +24,7 @@ public class GerenciadorDeSessaoTest {
 
 	@Before
 	public void preparaSessoes() {
-		this.akira = new Filme("Akira", Duration.ofMinutes(120), "SCI-FI");
+		this.akira = new Filme("Akira", Duration.ofMinutes(120), "ANIME");
 		this.sala2D = new Sala("Sala 2D");
 
 		this.sessaoDasDez = new Sessao(LocalTime.parse("10:00:00"), sala2D, akira);
